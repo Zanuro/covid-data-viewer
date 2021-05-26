@@ -9,7 +9,7 @@ const MainStat = (props) => {
                     <img src={props.src} width="60" height="60" />
                 </div>
                 <div class="flex-1">    
-                    <p class="text-gray-500 font-semibold text-base text-center">{props.title}</p>
+                    <p class="text-gray-500 font-semibold text-justify md:text-left">{props.title}</p>
                     <div class="flex items-baseline space-x-4">
                         <h2 class="text-2xl font-semibold">{props.value}</h2>
                         <p class="text-green-700 flex font-semibold space-x-1">
